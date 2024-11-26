@@ -1,0 +1,186 @@
+
+body {
+    font-family: 'Inter', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #111827;
+    color: #f3f4f6;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 50px;
+    background-color: #1f2937;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: 700;
+    color: #8b5cf6;
+}
+
+.nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.nav ul li a {
+    text-decoration: none;
+    color: #f3f4f6;
+    font-weight: 600;
+    transition: color 0.3s;
+}
+
+.nav ul li a:hover {
+    color: #8b5cf6;
+}
+
+.auth-buttons button {
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: none;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.signup {
+    background-color: #8b5cf6;
+    color: white;
+}
+
+.login {
+    background-color: transparent;
+    color: #8b5cf6;
+    border: 2px solid #8b5cf6;
+}
+
+.hero-section {
+    text-align: center;
+    padding: 100px 20px;
+    background: linear-gradient(135deg, #8b5cf6, #1f2937);
+    color: white;
+}
+
+.hero-section h1 {
+    font-size: 32px;
+    margin-bottom: 30px;
+    font-weight: 700;
+}
+
+.hero-section span {
+    color: #f3f4f6;
+    background-color: #8b5cf6;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+.upload-box {
+    margin: 20px auto;
+    padding: 30px;
+    border: 2px dashed #f3f4f6;
+    border-radius: 10px;
+    background: #1f2937;
+    max-width: 400px;
+}
+
+#upload-btn {
+    padding: 10px 20px;
+    margin-top: 20px;
+    background-color: #8b5cf6;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+#upload-btn:hover {
+    background-color: #6d28d9;
+}
+
+.features-section {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    padding: 50px;
+    background-color: #1f2937;
+}
+
+.feature {
+    flex: 1;
+}
+
+.feature h2 {
+    color: #8b5cf6;
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+.feature ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.feature ul li {
+    margin: 10px 0;
+}
+
+.futuristic-section {
+    padding: 50px 20px;
+    background: linear-gradient(135deg, #1f2937, #111827);
+    text-align: center;
+    color: #f3f4f6;
+}
+
+.features-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+    margin-top: 30px;
+}
+
+.feature-item {
+    padding: 20px;
+    background: #1f2937;
+    border-radius: 10px;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.feature-item:hover {
+    transform: translateY(-10px);
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.3);
+}
+
+.feature-image {
+    height: auto; 
+    border-radius: 18px; 
+    overflow: hidden; 
+}
+.feature-image img {
+    width: 100%; 
+    height: auto;
+    display: block;
+}
+
+#media-type {
+    margin: 10px 0;
+    padding: 10px;
+    font-size: 16px;
+    border: 2px solid #8b5cf6;
+    border-radius: 5px;
+    background-color: #1f2937;
+    color: #f3f4f6;
+    outline: none;
+}
+
+#upload-status {
+    margin-top: 20px;
+    font-size: 16px;
+    color: #8b5cf6;
+    font-weight: bold;
+}
